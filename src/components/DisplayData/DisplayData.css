@@ -1,0 +1,51 @@
+.api-data-container {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.loading {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.error {
+    color: red;
+    text-align: center;
+    font-size: 16px;
+}
+
+.data-list {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.data-item {
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.data-item h3 {
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.data-item p {
+    font-size: 16px;
+    color: #333;
+}
+
+.flag {
+    width: 50px;
+    height: 30px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}

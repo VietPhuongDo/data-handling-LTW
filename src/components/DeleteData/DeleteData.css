@@ -1,0 +1,44 @@
+/* src/components/DeleteData/DeleteData.css */
+.delete-data-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: auto;
+}
+
+.data-input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.delete-btn {
+    padding: 10px 20px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    background-color: #d32f2f;
+}
+
+.status-message {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+}
+
+.status-message:nth-child(odd) {
+    color: green;
+}
+
+.status-message:nth-child(even) {
+    color: red;
+}
